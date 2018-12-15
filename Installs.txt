@@ -1,2 +1,6 @@
 apt-get update
 apt -y install gedit python3
+sudo modprobe -r hp_accel
+
+/etc/modprobe.d/blacklist.conf
+blacklist hp_accel
