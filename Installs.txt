@@ -1,0 +1,2 @@
+apt-get update
+apt -y install gedit python3
